@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GmuCustomSwipeCell"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = " GmuCustomSwipeCell for gmu"
 
   # This description is used to generate tags and improve search results.
@@ -37,8 +37,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license= { :type => "MIT", :file => "LICENSE" }
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license  = "MIT"
+  # s.license      = { :tpe => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-   s.source  = {:git => "https://github.com/frontstoner/GmuCustomSwipeCell.git", :tag => "0.0.1"}
+   s.source  = {:git => "https://github.com/frontstoner/GmuCustomSwipeCell.git", :tag => "0.0.2"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
