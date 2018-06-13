@@ -62,8 +62,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+   s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -74,13 +73,14 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
-  #  Specify the location from where the source should be retrieved.
+  #  Specify the location from where the source should be retrieved
   #  Supports git, hg, bzr, svn and HTTP.
   #
-   s.source  = {:git => "https://github.com/frontstoner/GmuCustomSwipeCell.git", :tag => "0.0.2"}
 
 
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+   s.source  = {:git => "https://github.com/frontstoner/GmuCustomSwipeCell.git", :tag => "0.0.3" }
+
+    #  ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― 
   #
   #  CocoaPods is smart about how it includes source code. For source files
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
